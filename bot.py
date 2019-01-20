@@ -1,3 +1,4 @@
+import config
 import telebot
 import parser
 #import socks
@@ -6,7 +7,7 @@ import bs4
 import parser
 from Task import Task
 import markups as m 
-import config
+
 
 
 #sockets for antiblocking the telegram
