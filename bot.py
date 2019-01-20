@@ -6,7 +6,7 @@ import bs4
 import parser
 from Task import Task
 import markups as m 
-#import token
+import config
 
 
 #sockets for antiblocking the telegram
@@ -15,8 +15,7 @@ import markups as m
 
 
 #main variable
-TOKEN = "785630096:AAG_oX6JT_W0MxwchbmPMMzX5ECP8XXA4VQ"
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(config.TOKEN)
 task = Task()
 
 #handlers
