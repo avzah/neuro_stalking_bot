@@ -1,4 +1,4 @@
-import config
+#import config
 import telebot
 import parser
 #import socks
@@ -16,7 +16,7 @@ import markups as m
 
 
 #main variable
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(TOKEN)
 task = Task()
 
 #handlers
