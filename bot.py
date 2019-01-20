@@ -10,8 +10,8 @@ import markups as m
 
 
 #sockets for antiblocking the telegram
-socks.set_default_proxy(socks.SOCKS5, "localhost", 9150)
-socket.socket = socks.socksocket
+#socks.set_default_proxy(socks.SOCKS5, "localhost", 9150)
+#socket.socket = socks.socksocket
 
 
 #main variable
