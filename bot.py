@@ -13,7 +13,6 @@ socket.socket = socks.socksocket
 
 
 #main variable
-TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 task = Task()
 
