@@ -6,6 +6,8 @@ import bs4
 import parser
 from Task import Task
 import markups as m 
+#import token
+
 
 #sockets for antiblocking the telegram
 socks.set_default_proxy(socks.SOCKS5, "localhost", 9150)
@@ -13,6 +15,7 @@ socket.socket = socks.socksocket
 
 
 #main variable
+TOKEN = "785630096:AAG_oX6JT_W0MxwchbmPMMzX5ECP8XXA4VQ"
 bot = telebot.TeleBot(TOKEN)
 task = Task()
 
