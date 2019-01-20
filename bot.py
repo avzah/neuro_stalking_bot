@@ -1,7 +1,7 @@
 import telebot
 import parser
-import socks
-import socket
+#import socks
+#import socket
 import bs4
 import parser
 from Task import Task
