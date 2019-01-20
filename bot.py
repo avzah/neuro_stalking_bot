@@ -1,4 +1,5 @@
 #import config
+import os
 import telebot
 import parser
 #import socks
@@ -16,7 +17,8 @@ import markups as m
 
 
 #main variable
-bot = telebot.TeleBot(TOKEN)
+real_token = os.getenv("TOKEN")
+bot = telebot.TeleBot(real_token)
 task = Task()
 
 #handlers
