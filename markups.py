@@ -13,7 +13,7 @@ age_markup = types.ReplyKeyboardMarkup(row_width=3, resize_keyboard=True)
 age_markup_btn1 =  types.KeyboardButton('Сутки')
 age_markup_btn2 =  types.KeyboardButton('неделя')
 age_markup_btn3 =  types.KeyboardButton('Месяц')
-age_markup_btn3 =  types.KeyboardButton('Год')
+age_markup_btn4 =  types.KeyboardButton('Год')
 age_markup.add(age_markup_btn1, age_markup_btn2, age_markup_btn3, age_markup_btn4)
 
 rating_markup = types.ReplyKeyboardMarkup(row_width=3, resize_keyboard=True)
